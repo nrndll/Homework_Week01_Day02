@@ -61,7 +61,7 @@ print(users["Erik"]["home_town"])
 # 3. Get the array of Erik's lottery numbers
 print(users["Erik"]["lottery_numbers"])
 # 4. Get the species of Avril's pet Monty
-print(users["Avril"]["pets"][0]["name"])  
+print(users["Avril"]["pets"][0]["species"])  
 # 5. Get the smallest of Erik's lottery numbers
 smallest_number = 100
 for number in users["Erik"]["lottery_numbers"]:
